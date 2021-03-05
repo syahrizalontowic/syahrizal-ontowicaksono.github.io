@@ -1,0 +1,251 @@
+body {
+  font-family: "Arial";
+  color:#404146;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #1F1F1F;
+  color: #fff;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-logo {
+  float: left;
+  font-size: 25px;
+  font-weight:700;
+  letter-spacing: 10px;
+  padding: 25px 40px;
+  line-height: 36px;
+}
+
+.main {
+  padding: 180px 0 100px 0;
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.header-list a {
+  text-decoration: none;
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-list a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-list li {
+  line-height: 50px;
+  padding: 0 15px;
+}
+
+.header-list a {
+  line-height: 50px;
+  padding: 0 15px;
+  color: white;
+  display: block;
+  border-radius: 20px;
+}
+
+.copy-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.copy-container h1 {
+  font-size: 70px;
+  margin-bottom: 0px;
+  letter-spacing: 10px;
+}
+
+.copy-container h2 {
+  font-size: 30px;
+  font-weight: 200;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #1F1F1F;
+  opacity: 0.7;
+}
+
+.copy-container span {
+  color: #4FA6F6;
+}
+
+.copy-container img {
+  height:200px;
+  border-radius: 20px;
+}
+
+.about { 
+  font-size: 28px;
+  height: 260px;
+  background-color: rgb(244, 244, 244);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  opacity: 0.7;
+  color: #1F1F1F;
+}
+
+/*.about h3 {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}*/
+
+.about p {
+  padding: 0px 150px;
+  font-size: 20px;
+}
+
+.certificate {
+  height: 550px;
+  padding: 0px 150px;
+}
+
+.certificate h3 {
+  font-size: 28px;
+  padding-bottom: 20px;
+  
+}
+
+.certificate-item {
+  height:300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.certificate img {
+  height: 400px;
+  box-shadow: 5px 5px 20px rgba(228, 228, 228, 0.886);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.certificate-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.contents {
+  height: 550px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.contents h3 {
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+.contents-item {
+  float: left;
+  width: 33.3%;
+}
+
+.contents-item img{
+  height: 300px;
+  box-shadow: 5px 5px 20px rgba(228, 228, 228, 0.886);
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.contact-form {
+  height: 500px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: rgb(244, 244, 244);
+    color: #1F1F1F;
+  opacity: 0.7;
+}
+
+.contact-title {
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+input, textarea {
+  width: 800px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding:20px;
+  font-size: 18px;
+  border: 0px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+::placeholder {
+  font-family: "Avenir Next";
+  color:#7C7D83;
+}
+
+.contact-form {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.contact-submit{
+  width: 500px;
+  background-color:#4FA6F6;
+  color:#4f4f4f;
+  font-size: 22px;
+  padding: 15px 40px;
+  cursor: pointer;
+  box-shadow: 0 7px #3742db;
+}
+
+.contact-submit:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+.contact-form p{
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #7C7D83;
+  color: #fff;
+  height: 30px;
+  padding: 30px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 22px;
+  font-weight:700;
+  letter-spacing: 5px;
+  color: #1F1F1F;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  float: right;
+  padding: 0 10px;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: #1F1F1F;
+}
